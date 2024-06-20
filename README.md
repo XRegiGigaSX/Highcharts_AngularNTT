@@ -1,6 +1,11 @@
-# NTTPro2
+# Highcharts implementation using Angular 18
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+
+## Implemented using following libraries
+highcharts : https://www.npmjs.com/package/highcharts
+highcharts-angular : https://www.npmjs.com/package/highcharts-angular
+ngx-color-picker : https://www.npmjs.com/package/ngx-color-picker
 
 ## Development server
 
