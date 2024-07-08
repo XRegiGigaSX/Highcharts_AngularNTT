@@ -1,0 +1,111 @@
+$form-border-color: #ddd;
+$form-bg-color: #f9f9f9;
+$form-padding: 20px;
+$form-margin-bottom: 20px;
+$input-border-radius: 4px;
+$button-border-radius: 4px;
+$primary-color: #007bff;
+$success-color: #28a745;
+$danger-color: #dc3545;
+
+.form-container {
+  width: 46%;
+  padding: $form-padding;
+  background-color: $form-bg-color;
+  border: 1px solid $form-border-color;
+  border-radius: $input-border-radius;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    text-align: center;
+    margin-bottom: $form-margin-bottom;
+  }
+
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: $form-margin-bottom;
+
+    label {
+      flex: 1 1 30%;
+      margin-right: 10px;
+      margin-bottom: 0;
+
+      .form-control {
+        width: 90%;
+        padding: 5%;
+        margin: 1em;
+        border: 1px solid $form-border-color;
+        border-radius: $input-border-radius;
+        box-sizing: border-box;
+      }
+      .form-control-color{
+        width: 90%;
+        margin: 1em;
+        scale: 1.1;
+        border: 1px solid $form-border-color;
+        border-radius: $input-border-radius;
+        box-sizing: border-box;
+      }
+      
+    }
+
+    .btn {
+      flex: 0 0 auto;
+      margin-left: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: $button-border-radius;
+      color: #fff;
+      cursor: pointer;
+
+      &.btn-danger {
+        background-color: $danger-color;
+      }
+
+      &.btn-primary {
+        background-color: $primary-color;
+      }
+
+      &.btn-success {
+        background-color: $success-color;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+}
+.chart-container {
+  width: 46%;
+  height: 90vh;
+  margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-btn{
+    padding: 0.6em;
+    background-color: $primary-color;
+    margin: 1em;
+    border : none;
+    color: white;
+    border-radius: 1em;
+}
+.submit-btn{
+    padding: 0.6em;
+    background-color: $success-color;
+    margin: 1em;
+    border : none;
+    color: white;
+    border-radius: 1em;
+}
